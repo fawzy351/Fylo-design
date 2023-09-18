@@ -54,6 +54,17 @@ body{
     align-items: center;
     min-height: 100vh;
     background-color: var(--Very-Dark-Blue);
+    background-image: url(../IMAGES/bg-desktop.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+@media (max-width:767px) {
+    .page{
+        background-image: url(../IMAGES/bg-mobile.png);
+        background-position: left;
+        background-size: cover;
+    }
 }
 .page .container{
     display: flex;
